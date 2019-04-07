@@ -1,0 +1,10 @@
+C:\Rnd\amigda.hub\amigda.device.client\obj\Release\netcoreapp2.2\amigda.device.client.csproj.CoreCompileInputs.cache
+C:\Rnd\amigda.hub\amigda.device.client\obj\Release\netcoreapp2.2\amigda.device.client.AssemblyInfoInputs.cache
+C:\Rnd\amigda.hub\amigda.device.client\obj\Release\netcoreapp2.2\amigda.device.client.AssemblyInfo.cs
+C:\Rnd\amigda.hub\amigda.device.client\bin\Release\netcoreapp2.2\amigda.device.client.deps.json
+C:\Rnd\amigda.hub\amigda.device.client\bin\Release\netcoreapp2.2\amigda.device.client.runtimeconfig.json
+C:\Rnd\amigda.hub\amigda.device.client\bin\Release\netcoreapp2.2\amigda.device.client.runtimeconfig.dev.json
+C:\Rnd\amigda.hub\amigda.device.client\bin\Release\netcoreapp2.2\amigda.device.client.dll
+C:\Rnd\amigda.hub\amigda.device.client\bin\Release\netcoreapp2.2\amigda.device.client.pdb
+C:\Rnd\amigda.hub\amigda.device.client\obj\Release\netcoreapp2.2\amigda.device.client.dll
+C:\Rnd\amigda.hub\amigda.device.client\obj\Release\netcoreapp2.2\amigda.device.client.pdb
