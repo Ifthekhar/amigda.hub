@@ -1,0 +1,11 @@
+C:\Rnd\amigda.hub\amigda.hub.consumer\bin\Debug\netcoreapp2.1\amigda.hub.consumer.deps.json
+C:\Rnd\amigda.hub\amigda.hub.consumer\bin\Debug\netcoreapp2.1\amigda.hub.consumer.runtimeconfig.json
+C:\Rnd\amigda.hub\amigda.hub.consumer\bin\Debug\netcoreapp2.1\amigda.hub.consumer.runtimeconfig.dev.json
+C:\Rnd\amigda.hub\amigda.hub.consumer\bin\Debug\netcoreapp2.1\amigda.hub.consumer.dll
+C:\Rnd\amigda.hub\amigda.hub.consumer\obj\Debug\netcoreapp2.1\amigda.hub.consumer.csprojAssemblyReference.cache
+C:\Rnd\amigda.hub\amigda.hub.consumer\obj\Debug\netcoreapp2.1\amigda.hub.consumer.csproj.CoreCompileInputs.cache
+C:\Rnd\amigda.hub\amigda.hub.consumer\obj\Debug\netcoreapp2.1\amigda.hub.consumer.AssemblyInfoInputs.cache
+C:\Rnd\amigda.hub\amigda.hub.consumer\obj\Debug\netcoreapp2.1\amigda.hub.consumer.AssemblyInfo.cs
+C:\Rnd\amigda.hub\amigda.hub.consumer\bin\Debug\netcoreapp2.1\amigda.hub.consumer.pdb
+C:\Rnd\amigda.hub\amigda.hub.consumer\obj\Debug\netcoreapp2.1\amigda.hub.consumer.dll
+C:\Rnd\amigda.hub\amigda.hub.consumer\obj\Debug\netcoreapp2.1\amigda.hub.consumer.pdb
