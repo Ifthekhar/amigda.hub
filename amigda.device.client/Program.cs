@@ -15,11 +15,25 @@ namespace amigda.device.client
             {
                 var deviceClient = DeviceClient.CreateFromConnectionString(DeviceConnectionString);
                 await deviceClient.OpenAsync();
-                var msseageBytes = Encoding.ASCII.GetBytes($" Amigda night {DateTime.Today.ToShortDateString()}");
-                var message = new Message(msseageBytes);
-                await deviceClient.SendEventAsync(message);
-                Console.WriteLine("Device is connected");
-                Console.WriteLine("Hello World from Amigda");
+                //var msseageBytes = Encoding.ASCII.GetBytes($" Amigda night {DateTime.Today.ToShortDateString()}");
+                //var message = new Message(msseageBytes);
+                //await deviceClient.SendEventAsync(message);
+                while (true)
+                {
+                    Console.WriteLine("Waiting for message\n");
+                    var receiveMessage = await deviceClient.ReceiveAsync();
+                    if (receiveMessage != null)
+                    {
+                        var receivedMessage = Encoding.ASCII.GetString(receiveMessage.GetBytes());
+                        Console.ForegroundColor = ConsoleColor.Yellow;
+                        Console.WriteLine($"\nMessage received { receiveMessage }");
+                        Console.ResetColor();
+                        await deviceClient.CompleteAsync(receiveMessage);
+                    }
+                    else continue;
+                }
+                
+                
             }
             catch (Exception ex)
             {
@@ -30,4 +44,6 @@ namespace amigda.device.client
             Console.Read();
         }
     }
+
+    
 }

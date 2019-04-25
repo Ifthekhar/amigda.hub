@@ -10,6 +10,8 @@ namespace amigda.hub.consumer
         private const string ConnectionString = "Endpoint=sb://ihsuprodmlres005dednamespace.servicebus.windows.net/;SharedAccessKeyName=iothubowner;SharedAccessKey=4MTtHD2rFKHgaTcvxCKoVs9XddHcUgVT4zrYSu7rYbg=;EntityPath=iothub-ehub-ifhaiot-1465452-22d4cc6c37";
         static async Task Main(string[] args)
         {
+            
+            
             var hostName = "iothub-ehub-ifhaiot-1465452-22d4cc6c37";
             var eventHubConnectionString = "Endpoint=sb://ihsuprodmlres005dednamespace.servicebus.windows.net/;SharedAccessKeyName=iothubowner;SharedAccessKey=4MTtHD2rFKHgaTcvxCKoVs9XddHcUgVT4zrYSu7rYbg=;EntityPath=iothub-ehub-ifhaiot-1465452-22d4cc6c37";
             var stroageConnectionString = "DefaultEndpointsProtocol=https;AccountName=ifhaiotstorage01;AccountKey=ulqwbjLF/wSC+VbYkevDPZ0Wbk1DLXwd6++Q2lKGe+Bii722rZmnsZ+QG32qndaycUmVbnpUrJQqloPjzAqO+A==;EndpointSuffix=core.windows.net";
